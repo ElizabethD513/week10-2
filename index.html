@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.css"
+  />
+  <link
+  rel="stylesheet"
+  href="./week10.css"
+/>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+  <div class="picture">
+    <img src="images/bigsupermarket.jpg" class="rounded mx-auto d-block" width="100%">
+  </div>
+  <p class="text-center text-bg-secondary fs-3">Make Your Shopping List</p>
+ 
+    <form action="" id="itemForm" class="mb-3">
+      <div class="form-group form-control-plaintext border border-danger mb-1">
+        <label for="item">Enter grocery item</label>
+        <input type="text" id="item" class="form-control" placeholder="Enter your item...">
+        
+      </div>
+     
+      <button type="submit" class="btn btn-info">Add To List</button>
+    </form>
+    
+    <table id="myItem" class="table mb-5 table-danger">
+      <thead>
+        <tr>
+            <th scope="col">Grocery List</th>
+            
+        </tr>
+      </thead>
+      <tbody>
+          
+      </tbody>
+    </table>
+
+
+      <img src="images/groceryaisle.jpg"class="rounded float-left" width="300">
+      <h2>Enter email to save shopping list</h2>
+      <form action="" id="loginForm">
+        
+        <div class="form-group form-control-plaintext">
+          <label for="email">Email address</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email to send list">
+        
+        </div>
+        
+        <button type="submit" class="btn btn-info">Submit</button>
+       
+      </form>
+      
+
+  </div>
+        <script src="./week10.js"></script>
+</body>
+</html>

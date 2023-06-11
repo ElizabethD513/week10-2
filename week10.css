@@ -1,0 +1,12 @@
+/* I added this stylesheet to frame the heading photo*/
+.picture {              
+    position:relative;    /*this was used in order to use position:absolute on the image */
+    overflow:hidden;        /*this hides the section of the image I didn't want to appear */
+    height:400px;           
+}
+
+.picture img {
+    position:absolute;      /*this allows adjusting the position of the image inside the picture div*/
+    left:0;                 /*this aligns the left side of the image to the left side of the picture div*/
+    bottom:-64px;       /*this aligns the bottom of the image to 64px below the bottom of the picture div*/
+}
